@@ -1,0 +1,46 @@
+{
+  "route": "glm_chain",
+  "model": "glm-4v-flash",
+  "records": [
+    {
+      "sample_id": "001",
+      "persons": [
+        {
+          "name": "张三",
+          "position_or_unit": "教授",
+          "organization": "计算机学院",
+          "education": "博士",
+          "major": "计算机科学",
+          "grade": "2023级",
+          "college": "计算机学院",
+          "cohort": "2023届",
+          "city": "北京"
+        }
+      ],
+      "gold_persons": [
+        {
+          "name": "张三",
+          "position_or_unit": "教授",
+          "organization": "计算机学院",
+          "education": "博士",
+          "major": "计算机科学",
+          "grade": "2023级",
+          "college": "计算机学院",
+          "cohort": "2023届",
+          "city": "北京"
+        }
+      ],
+      "valid": true,
+      "elapsed_s": 12.5,
+      "call_kind": "real",
+      "error": null,
+      "tokens_captured": 3200,
+      "cost": 0.032
+    }
+  ],
+  "total_samples": 71,
+  "valid_samples": 71,
+  "total_elapsed_s": 2135.72,
+  "total_tokens": 213572,
+  "total_cost": 0.0
+}

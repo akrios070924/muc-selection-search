@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Data files (large datasets)
+data/source_materials/posters/
+data/gold/gold_*.json
+data/gold/gold_*.xlsx
+reports/extraction/week4/metrics_*.json
+reports/extraction/week4/route_comparison_*.json
+reports/extraction/week4/annotation_sheet_*.xlsx
+
+# Cache
+app/extraction/box_cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Evidence packs
+evidence/week[1-4]/B/
+
+# Progress files
+progress/week[1-4]/B/PROGRESS.md

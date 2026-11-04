@@ -1,0 +1,329 @@
+{
+  "mode": "fixtures",
+  "route_meta": {
+    "ocr": "test-stub",
+    "multimodal": "test-stub"
+  },
+  "summary": {
+    "v0": {
+      "macro_strict": 0.3529,
+      "macro_norm": 0.3529,
+      "auto_pass_errors": 11,
+      "auto_pass_error_ratio": 0.6471,
+      "person_accuracy_norm": 0.1,
+      "poster_accuracy_norm": 0.125,
+      "p1_queue": 0,
+      "p2_queue": 0,
+      "failure_rate": 0.0
+    },
+    "v1": {
+      "macro_strict": 0.5294,
+      "macro_norm": 0.5294,
+      "auto_pass_errors": 0,
+      "auto_pass_error_ratio": 0.0,
+      "person_accuracy_norm": 0.3,
+      "poster_accuracy_norm": 0.375,
+      "p1_queue": 10,
+      "p2_queue": 1,
+      "failure_rate": 0.0
+    },
+    "v2": {
+      "macro_strict": 0.6471,
+      "macro_norm": 0.6471,
+      "auto_pass_errors": 0,
+      "auto_pass_error_ratio": 0.0,
+      "person_accuracy_norm": 0.5,
+      "poster_accuracy_norm": 0.5,
+      "p1_queue": 8,
+      "p2_queue": 1,
+      "failure_rate": 0.0
+    }
+  },
+  "full": {
+    "v0": {
+      "policy": "v0",
+      "macro_strict": 0.3529,
+      "macro_norm": 0.3529,
+      "correct_strict": 6,
+      "correct_norm": 6,
+      "denominator_fields": 17,
+      "auto_pass_errors": 11,
+      "auto_pass_error_ratio": 0.6471,
+      "field_strict": {
+        "cohort": {
+          "total": 1,
+          "correct": 1
+        },
+        "grade": {
+          "total": 0,
+          "correct": 0
+        },
+        "education": {
+          "total": 4,
+          "correct": 3
+        },
+        "college": {
+          "total": 6,
+          "correct": 0
+        },
+        "major": {
+          "total": 3,
+          "correct": 2
+        },
+        "city": {
+          "total": 3,
+          "correct": 0
+        },
+        "position_or_unit": {
+          "total": 0,
+          "correct": 0
+        }
+      },
+      "field_norm": {
+        "cohort": {
+          "total": 1,
+          "correct": 1
+        },
+        "grade": {
+          "total": 0,
+          "correct": 0
+        },
+        "education": {
+          "total": 4,
+          "correct": 3
+        },
+        "college": {
+          "total": 6,
+          "correct": 0
+        },
+        "major": {
+          "total": 3,
+          "correct": 2
+        },
+        "city": {
+          "total": 3,
+          "correct": 0
+        },
+        "position_or_unit": {
+          "total": 0,
+          "correct": 0
+        }
+      },
+      "persons_total": 10,
+      "persons_correct_norm": 1,
+      "person_accuracy_norm": 0.1,
+      "posters_total": 8,
+      "posters_correct_norm": 1,
+      "poster_accuracy_norm": 0.125,
+      "p1_queue": 0,
+      "p2_queue": 0,
+      "failure_rate": 0.0,
+      "route_meta": [
+        {
+          "name": "ocr",
+          "kind": "test-stub",
+          "latency_s": 0.0,
+          "cost": 0.0,
+          "first_attempt_failure_rate": 0.0
+        },
+        {
+          "name": "multimodal",
+          "kind": "test-stub",
+          "latency_s": 0.0,
+          "cost": 0.0,
+          "first_attempt_failure_rate": 0.0
+        }
+      ]
+    },
+    "v1": {
+      "policy": "v1",
+      "macro_strict": 0.5294,
+      "macro_norm": 0.5294,
+      "correct_strict": 9,
+      "correct_norm": 9,
+      "denominator_fields": 17,
+      "auto_pass_errors": 0,
+      "auto_pass_error_ratio": 0.0,
+      "field_strict": {
+        "cohort": {
+          "total": 1,
+          "correct": 1
+        },
+        "grade": {
+          "total": 0,
+          "correct": 0
+        },
+        "education": {
+          "total": 4,
+          "correct": 3
+        },
+        "college": {
+          "total": 6,
+          "correct": 1
+        },
+        "major": {
+          "total": 3,
+          "correct": 3
+        },
+        "city": {
+          "total": 3,
+          "correct": 1
+        },
+        "position_or_unit": {
+          "total": 0,
+          "correct": 0
+        }
+      },
+      "field_norm": {
+        "cohort": {
+          "total": 1,
+          "correct": 1
+        },
+        "grade": {
+          "total": 0,
+          "correct": 0
+        },
+        "education": {
+          "total": 4,
+          "correct": 3
+        },
+        "college": {
+          "total": 6,
+          "correct": 1
+        },
+        "major": {
+          "total": 3,
+          "correct": 3
+        },
+        "city": {
+          "total": 3,
+          "correct": 1
+        },
+        "position_or_unit": {
+          "total": 0,
+          "correct": 0
+        }
+      },
+      "persons_total": 10,
+      "persons_correct_norm": 3,
+      "person_accuracy_norm": 0.3,
+      "posters_total": 8,
+      "posters_correct_norm": 3,
+      "poster_accuracy_norm": 0.375,
+      "p1_queue": 10,
+      "p2_queue": 1,
+      "failure_rate": 0.0,
+      "route_meta": [
+        {
+          "name": "ocr",
+          "kind": "test-stub",
+          "latency_s": 0.0,
+          "cost": 0.0,
+          "first_attempt_failure_rate": 0.0
+        },
+        {
+          "name": "multimodal",
+          "kind": "test-stub",
+          "latency_s": 0.0,
+          "cost": 0.0,
+          "first_attempt_failure_rate": 0.0
+        }
+      ]
+    },
+    "v2": {
+      "policy": "v2",
+      "macro_strict": 0.6471,
+      "macro_norm": 0.6471,
+      "correct_strict": 11,
+      "correct_norm": 11,
+      "denominator_fields": 17,
+      "auto_pass_errors": 0,
+      "auto_pass_error_ratio": 0.0,
+      "field_strict": {
+        "cohort": {
+          "total": 1,
+          "correct": 1
+        },
+        "grade": {
+          "total": 0,
+          "correct": 0
+        },
+        "education": {
+          "total": 4,
+          "correct": 3
+        },
+        "college": {
+          "total": 6,
+          "correct": 3
+        },
+        "major": {
+          "total": 3,
+          "correct": 3
+        },
+        "city": {
+          "total": 3,
+          "correct": 1
+        },
+        "position_or_unit": {
+          "total": 0,
+          "correct": 0
+        }
+      },
+      "field_norm": {
+        "cohort": {
+          "total": 1,
+          "correct": 1
+        },
+        "grade": {
+          "total": 0,
+          "correct": 0
+        },
+        "education": {
+          "total": 4,
+          "correct": 3
+        },
+        "college": {
+          "total": 6,
+          "correct": 3
+        },
+        "major": {
+          "total": 3,
+          "correct": 3
+        },
+        "city": {
+          "total": 3,
+          "correct": 1
+        },
+        "position_or_unit": {
+          "total": 0,
+          "correct": 0
+        }
+      },
+      "persons_total": 10,
+      "persons_correct_norm": 5,
+      "person_accuracy_norm": 0.5,
+      "posters_total": 8,
+      "posters_correct_norm": 4,
+      "poster_accuracy_norm": 0.5,
+      "p1_queue": 8,
+      "p2_queue": 1,
+      "failure_rate": 0.0,
+      "route_meta": [
+        {
+          "name": "ocr",
+          "kind": "test-stub",
+          "latency_s": 0.0,
+          "cost": 0.0,
+          "first_attempt_failure_rate": 0.0
+        },
+        {
+          "name": "multimodal",
+          "kind": "test-stub",
+          "latency_s": 0.0,
+          "cost": 0.0,
+          "first_attempt_failure_rate": 0.0
+        }
+      ]
+    }
+  }
+}
